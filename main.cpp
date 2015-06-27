@@ -3,7 +3,7 @@
 TInt E32Main()
 {
     RProcess proc;
-    User::LeaveIfError(proc.Create(_L("alarmeditorapp.exe"),KNullDesC));
+    User::LeaveIfError(proc.Create(_L("notifierwidgetsettings.exe"),KNullDesC));
     proc.Resume();
     proc.Close();
     return 0;
